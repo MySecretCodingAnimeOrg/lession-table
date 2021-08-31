@@ -1,47 +1,189 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+	display: flex;
 }
-section{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #111;
-    overflow: hidden;
+#group{
+height: 10px;
+width: 750px;
+display: flex;
+justify-content: center;
+margin-top: -13px;
+position: absolute;
 }
-section .text{
-    position: relative;
-    text-align: center;
-    color: #fff;
-    margin: 40px;
-    max-width: 800px;
-    user-select: none;
-    font-size: 1.5em;
+#group p{
+	border-top: darkred solid 3px;
+	width: 75px;
 }
-section .text span {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
+.week{
+	margin-top: 30px;
 }
-section .text span.active{
-    animation: smoke 2s linear forwards;
+.fPartWeek{
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
 }
-@keyframes smoke {
-    0%{
-        opacity: 1;
-        filter: blur(0);
-        transform: translateX(0) translateY(0) rotate(0deg) scale(1);
-    }
-    50%{
-        opacity: 1;
-        pointer-events: none;
-    }
-    100%{
-        opacity: 0;
-        filter: blur(20px);
-        pointer-events: none;
-        transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
-    }
+.lPartWeek{
+	height: 1000px;
+	display: flex;
+	margin-left: 20px;
+	flex-direction: column;
+}
+
+#monday {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 340px;
+	height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: darkred solid 3px;
+  border-radius: 3px;
+}
+#tuesday {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 340px;
+	height: 300px;
+	margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: darkred solid 3px;
+  border-radius: 3px;
+}
+#wensday {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 340px;
+	height: 300px;
+	margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: darkred solid 3px;
+  border-radius: 3px;
+}
+#thursday {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 340px;
+	height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: darkred solid 3px;
+  border-radius: 3px;
+}
+#friday {
+  padding-right: 10px;
+  padding-left: 10px;
+	margin-top: 20px;
+  width: 340px;
+	height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: darkred solid 3px;
+  border-radius: 3px;
+}
+#saturday {
+  padding-right: 10px;
+  padding-left: 10px;
+	margin-top: 20px;
+  width: 340px;
+	height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: darkred solid 3px;
+  border-radius: 3px;
+}
+.p {
+  margin-top: 20px;
+  display: flex;
+  height: 35px;
+  width: inherit;
+  border-bottom: darkred solid 2px;
+}
+
+.lp {
+  border-bottom: none;
+}
+
+#m_n1,#m_n2,#m_n3,#m_n4,#m_n5,#m_n6 {
+  margin-left: 10px;
+  height: 10px;
+}
+#t_n1,#t_n2,#t_n3,#t_n4,#t_n5,#t_n6 {
+  margin-left: 10px;
+  height: 10px;
+}
+#w_n1,#w_n2,#w_n3,#w_n4,#w_n5,#w_n6 {
+  margin-left: 10px;
+  height: 10px;
+}
+#th_n1,#th_n2,#th_n3,#th_n4,#th_n5,#th_n6 {
+  margin-left: 10px;
+  height: 10px;
+}
+
+.p .tch {
+  width: inherit;
+  display: flex;
+  margin-left: -10px;
+  justify-content: flex-end;
+}
+#monday::before{
+	content: '  Понедельник';
+	border-bottom: darkred solid 2px;
+	padding-right: 0px;
+  padding-left: 0px;
+	width: 360px;
+	white-space: pre;
+	margin-left: -10px;
+	-webkit-margin-collapse: collapse;
+}
+#tuesday::before{
+	content: '  Вторник';
+	border-bottom: darkred solid 2px;
+	padding-right: 0px;
+  padding-left: 0px;
+	width: 360px;
+	white-space: pre;
+	margin-left: -10px;
+	-webkit-margin-collapse: collapse;
+}
+#wensday::before{
+	content: '  Среда';
+	border-bottom: darkred solid 2px;
+	padding-right: 0px;
+  padding-left: 0px;
+	width: 360px;
+	white-space: pre;
+	margin-left: -10px;
+	-webkit-margin-collapse: collapse;
+}
+#thursday::before{
+	content: '  Четверг';
+	border-bottom: darkred solid 2px;
+	padding-right: 0px;
+  padding-left: 0px;
+	width: 360px;
+	white-space: pre;
+	margin-left: -10px;
+	-webkit-margin-collapse: collapse;
+}
+#friday::before{
+	content: '  Пятница';
+	border-bottom: darkred solid 2px;
+	padding-right: 0px;
+  padding-left: 0px;
+	width: 360px;
+	white-space: pre;
+	margin-left: -10px;
+	-webkit-margin-collapse: collapse;
+}
+#saturday::before{
+	content: '  Суббота';
+	border-bottom: darkred solid 2px;
+	padding-right: 0px;
+  padding-left: 0px;
+	width: 360px;
+	white-space: pre;
+	margin-left: -10px;
+	-webkit-margin-collapse: collapse;
 }
