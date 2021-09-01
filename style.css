@@ -1,7 +1,6 @@
 body{
 	display: flex;
-	width: 620px;
-	
+	justify-content: center;
 }
 #group{
 height: 10px;
