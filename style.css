@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap%27);
 body{
 	display: flex;
-width: 1020px;
+	width: 1020px;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 #group{
 height: 10px;
