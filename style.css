@@ -21,6 +21,7 @@ position: absolute;
 .fPartWeek{
 	height: 1000px;
 	display: flex;
+	padding-right: 200px;
 	flex-direction: column;
 }
 .lPartWeek{
