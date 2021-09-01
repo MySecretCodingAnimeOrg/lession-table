@@ -1,5 +1,7 @@
 body{
 	display: flex;
+	justify-content: center;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 #group{
 height: 10px;
@@ -19,6 +21,7 @@ position: absolute;
 .fPartWeek{
 	height: 1000px;
 	display: flex;
+	padding-right: 200px;
 	flex-direction: column;
 }
 .lPartWeek{
