@@ -123,14 +123,14 @@ position: absolute;
   margin-left: 10px;
   height: 10px;
 }
-#f_n1,#f_n2,#f_n3,#f_n4,#f_n5,#f_n6 {
+/* #f_n1,#f_n2,#f_n3,#f_n4,#f_n5,#f_n6 {
   margin-left: 10px;
   height: 10px;
 }
 #s_n1,#s_n2,#s_n3,#s_n4,#s_n5,#s_n6 {
   margin-left: 10px;
   height: 10px;
-}
+} */
 .p .tch {
   width: inherit;
   display: flex;
