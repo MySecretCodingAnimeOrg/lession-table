@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'Alegreya Sans'; 
+	src: url('AlegreyaSans-Medium.ttf');
+}
 body{
 	display: flex;
 	justify-content: center;
