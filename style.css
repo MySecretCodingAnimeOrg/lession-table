@@ -6,6 +6,7 @@ body{
 	display: flex;
 	justify-content: center;
 	font-family: 'Alegreya Sans', sans-serif;
+	background-image: url('lamp_v3.png')
 }
 #group{
 height: 10px;
