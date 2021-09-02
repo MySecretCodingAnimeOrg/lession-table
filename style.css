@@ -15,6 +15,8 @@ body{
   width: 100vw;
   background-image: url('lamp_v3.png');
   position: absolute;
+  z-index: -1;
+  background-size: cover;
 } 
 #group{
 height: 10px;
