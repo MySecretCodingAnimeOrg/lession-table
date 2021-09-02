@@ -244,6 +244,7 @@ body {
 .p .tch {
   width: inherit;
   display: flex;
+  font-style: italic;
   margin-left: -10px;
   justify-content: flex-end;
 }
