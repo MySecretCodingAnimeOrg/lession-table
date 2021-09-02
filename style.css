@@ -54,6 +54,7 @@ position: absolute;
   height: 300px;
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
   border: darkred outset 5px;
   border-radius: 3px;
   background: #fff;
