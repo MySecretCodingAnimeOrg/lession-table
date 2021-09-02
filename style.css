@@ -61,7 +61,6 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-left: -170px;
 }
 
 #group p {
