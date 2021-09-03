@@ -5,6 +5,6 @@ weeks = ['воскресенье', 'понедельник', 'вторник', '
 
 function daty() {
   let date = new Date();
-  var thema = document.getElementsByClassName('text')[0];
+  var thema = document.getElementsByClassName('time')[0];
   thema.innerHTML = '<b>Сегодня</b> <br />' + date.getFullYear() + '<br />' + date.getDate() + '-e ' + month[date.getMonth()] + ', ' + weeks[date.getDay()] + ". " + '<br />' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
 }
