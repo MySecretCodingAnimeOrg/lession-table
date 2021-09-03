@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Alegreya Sans';
   src: url('AlegreyaSans-Medium.ttf');
-}
+} 
 
 @media (min-width: 0px) and (max-width: 800px) {
   body {
@@ -315,8 +315,11 @@ body {
   -webkit-margin-collapse: collapse;
 }
 .time{
-  background: black;
-  color: #fff;
-  height: 100%;
-  mix-blend-mode: multiply;
+  background: #991f1f;
+  color: #000;
+  height: 123px;
+  position: absolute;
+  width: 157px;
+  padding-left: 10px;
+  margin-left: 1200px;
 }
