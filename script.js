@@ -7,7 +7,7 @@ function daty() {
   let date = new Date();
   var thema = document.getElementsByClassName('time')[0];
   thema.innerHTML = '<b>Сегодня </b> <br />' + date.getFullYear() + '<br />' + date.getDate() + '-e ' + month[date.getMonth()] + ', ' + weeks[date.getDay()] + ". " + '<br />' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
-}
+  
 if(date.getDay()==0){
   document.getElementById('monday').style.border = 'border: #e34636 outset 10px'
 }
@@ -25,4 +25,5 @@ if(date.getDay()==4){
 }
 if(date.getDay()==5){
   document.getElementById('saturday').style.border = 'border: #e34636 outset 10px'
+}
 }
