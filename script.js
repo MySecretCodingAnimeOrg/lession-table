@@ -1,9 +1,10 @@
-// const text = document.querySelector('.text');
-// text.innerHTML=text.textContent.replace(/\S/g,"<span>$&</span>"); 
+var test = setInterval(daty, 1)
+var date = new Date();
+month = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+weeks = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
 
-// const letters = document.querySelectorAll('span');
-// for (let i=0; i<letters.length; i++){
-//     letters[i].addEventListener("mouseover", function(){
-//         letters[i].classList.add('active');
-//     })
-// }
+function daty() {
+  let date = new Date();
+  var thema = document.getElementsByClassName('text')[0];
+  thema.innerHTML = '<b>Сегодня</b> <br />' + date.getFullYear() + '<br />' + date.getDate() + '-e ' + month[date.getMonth()] + ', ' + weeks[date.getDay()] + ". " + '<br />' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+}
