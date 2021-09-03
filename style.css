@@ -1,5 +1,4 @@
 *{
-  margin: 0;
 }
 @font-face {
   font-family: 'Alegreya Sans';
@@ -11,13 +10,18 @@
     width: 255vw;
     flex-direction: column;
   }
+  .time{
+    margin-top: -1880px;
+    margin-left: 400px;
+    /*! position: absolute; */
+  }
 #group p{
     height: 10px;
     width: 750px;
     margin-top: -1020px;
     position: absolute;
     display: flex;
-  margin-left: -170px;
+  margin-left: ;
   justify-content: flex-start;
   }
   .fPartWeek {
@@ -61,6 +65,8 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
+  margin-left: -310px;
+  margin-top: -10px;
 }
 
 #group p {
@@ -321,5 +327,5 @@ body {
   position: absolute;
   width: 157px;
   padding-left: 10px;
-  margin-left: 1200px;
+  /*! margin-left: 1200px; */
 }
