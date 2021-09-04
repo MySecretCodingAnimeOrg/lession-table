@@ -9,6 +9,7 @@
   body {
     width: 255vw;
     flex-direction: column;
+    background-position-x: -56%
   }
   .time{
     margin-top: -1880px;
@@ -45,7 +46,6 @@ body {
 
   background-image: url('lamp_v3.png');
   background-size: cover;
-  background-position-x: -56%;
 }
 
 #back {
